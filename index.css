@@ -22,6 +22,26 @@
   background-color: orange;
 }
 
+.bg-7 {
+  background-color: aqua;
+}
+
+.bg-8 {
+  background-color: bisque;
+}
+
+.bg-9 {
+  background-color: black;
+}
+
+.bg-10 {
+  background-color: chartreuse;
+}
+
+.bg-11 {
+  background-color: coral;
+}
+
 .container {
   display: flex;
   border: 1px solid black;
@@ -65,4 +85,114 @@
 
 .task2 .bigger {
   height: 400px;
+}
+
+/* task 3 */
+
+.task3 {
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+}
+
+.task3 .child {
+  height: 200px;
+}
+
+.task3 .biggerchild {
+  height: 400px;
+}
+
+.task3 .smaller {
+  width: 200px;
+}
+
+.task3 .bigger {
+  width: 400px;
+}
+
+/* Task 4 */
+
+.task4 {
+  flex-wrap: wrap;
+}
+
+.task4 .child {
+  height: 150px;
+}
+
+.task4.biggerchild {
+  height: 300px;
+}
+
+.task4 .smaller {
+  width: 120px;
+}
+
+.task4 .bigger {
+  width: 240px;
+}
+
+.task4 .smaller2 {
+  width: 150px;
+}
+
+.task4 .bigger2 {
+  width: 300px;
+}
+
+/* Task 5 */
+
+.task5 {
+  flex-wrap: wrap;
+}
+
+.task5 .child {
+  height: 100px;
+}
+
+.task5 .biggerchild {
+  height: 200px;
+}
+
+.task5 .smaller {
+  width: 100px;
+}
+
+.task5 .bigger {
+  width: 200px;
+}
+
+.task5 .bigger2 {
+  width: 400px;
+}
+
+/* Task 6 */
+
+.task6 {
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+}
+
+.task6 .child {
+  width: 100px;
+}
+
+.task6 .biggerchild {
+  width: 600px;
+}
+
+.task6 .smaller {
+  height: 150px;
+}
+
+.task6 .bigger {
+  height: 200px;
+}
+
+.task6 .bigger2 {
+  height: 300px;
+}
+
+.task6 .rowz {
+  flex-direction: column;
 }
